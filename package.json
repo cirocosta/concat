@@ -1,24 +1,25 @@
 {
-  "name": "concat",
+  "name": "concat-bin",
   "version": "1.0.1",
-  "description": "Concatenate files",
+  "description": "Cli for concatenating files",
   "main": "index.js",
   "scripts": {
     "test": "node test"
   },
   "keywords": [
     "concatenate",
-    "concat"
+    "concat",
+    "concat-bin"
   ],
   "repository": {
-    "url": "git@github.com:azer/concat.git",
+    "url": "git@github.com:cirocosta/concat-bin.git",
     "type": "git"
   },
   "directories": {
     "test": "./test",
     "bin": "./bin"
   },
-  "author": "azer",
+  "author": "Ciro S. Costa",
   "license": "BSD",
   "dependencies": {
     "minimist": "^0.1.0",
@@ -29,7 +30,7 @@
     "prova": "^1.10.0"
   },
   "bugs": {
-    "url": "https://github.com/azer/concat/issues"
+    "url": "https://github.com/cirocosta/concat-bin/issues"
   },
-  "homepage": "https://github.com/azer/concat"
+  "homepage": "https://github.com/cirocosta/concat-bin"
 }
